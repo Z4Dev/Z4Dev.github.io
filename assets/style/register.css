@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin:0px;
+    padding:0px;
+    background-image: url('../gfx/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center ;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.geral {
+    align-content: center;
+}
+
+.geral .register_text {
+    margin-left: 15px;
+    margin-top: 200px;
+    color:rgba(255, 255, 255, 0.858);
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-size: 19px;
+}
+
+.text_container {
+    display: flex;
+}
+
+.container_background {
+    margin-top: 20px;
+    display: flex;
+    width: 300px;
+    height: 50px;
+    background-color: #1818186f;
+    border: 1px solid #696969;
+    border-radius: 7px;
+}
+
+.circle {
+    margin-left: 75px;
+    margin-top: 18px;
+    height: 12.07px;
+    width: 13px;
+    background-color: #AA4848;
+    filter: drop-shadow(1px 1px 8px #AA4848);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.geral input {
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+    outline: none;
+    border: none;
+    padding-left: 15px;
+}
+
+.geral input:focus ~ .circle {
+    filter: drop-shadow(1px 1px 8px #48AA4F);
+    background-color: #48AA4F;
+}
+
+.button {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 16px;
+    color:white;
+    filter: drop-shadow(1px 1px 1px #48AA4F);
+    margin-top: 18px;
+    height: 50px;
+    background-color: #48AA4F;
+    border-radius: 7px;
+    font-weight: bold;
+    font-size: 12px;
+    transition: all 1s linear;
+}
+
+.button:hover {
+    filter: drop-shadow(1px 1px 5px #48AA4F);
+}
+
+.geral a {
+    text-decoration: none;
+}
+
+
+/* .geral input {
+    color:white;
+    margin-top: 10px;
+    padding-left: 15px;
+    width: 150px;
+    height: 60px;
+    background-color: #1818186f;
+    transition: all 1s linear;
+    border: 0px;
+    outline: none;
+    border: 1px solid #696969;
+    border-radius: 5px;
+}
+
+.geral input:focus {
+    border: 0.5px solid rgba(213, 19, 19, 0.225);
+    border-radius: 5px;
+    width: 300px;
+} */
