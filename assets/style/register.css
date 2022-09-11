@@ -107,21 +107,15 @@ body {
 
 .socialmediabuttons {
     position: absolute;
-    bottom: 0;
-    margin-bottom: 35px;
+    bottom: 35px;
+    left: 25px;
 }
 
 .socialbutton {
     display: inline-block;
+    margin: 25px;
 }
 
-.socialbuttonfirst {
-    margin-left:25px
-}
-
-.socialbuttonsecond, .socialbuttonthird {
-    margin-left:15px
-}
 
 .socialbutton a {
     color: white;
