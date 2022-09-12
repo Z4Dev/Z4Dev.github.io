@@ -30,6 +30,7 @@ body {
     justify-content: center;
     height: 18vh;
     flex-direction: column;
+    animation: 800ms ease-out 0s 1 SlideAnimation;
 }
 
 .Z4-Buttons {
@@ -37,6 +38,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 18vh;
+    animation: 800ms ease-out 0s 1 SlideAnimation;
 }
 
 .Z4-SocialMedias {
