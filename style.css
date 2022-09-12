@@ -27,26 +27,21 @@ body {
 #Geral .Z4-Infos {
     display: flex;
     align-items: center;
-    justify-content: center;
-    height: 18vh;
     flex-direction: column;
     animation: 800ms ease-out 0s 1 SlideAnimation;
 }
 
 .Z4-Buttons {
     display: flex;
-    align-items: center;
     justify-content: center;
-    height: 18vh;
     animation: 800ms ease-out 0s 1 SlideAnimation;
 }
 
 .Z4-SocialMedias {
+    margin-top: 15px;
     display: flex;
     align-items: center;
-    justify-content: center;
     flex-direction: column;
-    height: 1vh;
 }
 
 .Z4-SocialMedias a {
@@ -86,6 +81,7 @@ body {
 
 .Z4-Desc {
     margin-top: 15px;
+    margin-bottom: 15px;
     color:#9CA38F;
     font-size: 14px;
     font-family:sans-serif;
@@ -102,6 +98,7 @@ body {
     border-radius: 60px;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 15px;
 }
 
 .Z4-Button1 {
@@ -127,14 +124,11 @@ body {
         display: flex;
         align-items: center;
         justify-content: center;
-        height: 18vh;
         flex-direction: column;
     }
     
     .Z4-Buttons {
         display: flex;
         align-items: center;
-        justify-content: center;
-        height: 30vh;
     }
 }
