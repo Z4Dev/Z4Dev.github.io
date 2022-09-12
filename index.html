@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/font-awesome.min.css">
+        <title>WebSite - Z4</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <section id="Geral">
+            <section id="banner"></section>
+                <div class="Z4-Infos">
+                    <div class="Z4-Logo"><img src="https://cdn.discordapp.com/attachments/1012531853925814372/1018682474022326383/f6a917bd48e01a11eeeff9a62c2997f4-removebg-preview.jpg"></div>
+                    <div id="Z4-Name"></div>
+                    <div class="Z4-Site">z4dev.github.io/</div>
+                    <div class="Z4-Desc">&#128516 Back-End Developer and studying Front-End.<br>🧙‍♂️ Javascript and Lua Developer<br>👨‍💻 Vitti-Codes</div>
+                </div>
+                <div class="Z4-Buttons">
+                    <div class="Z4-Button">🖥️ Developer</div>
+                    <div class="Z4-Button">📚 Student</div>
+                    <div class="Z4-Button">❤️ Portugal</div>
+                </div>
+                <div class="Z4-SocialMedias">
+                    <a href="https://discord.gg/JqHQXHy4Em"><div class="Z4-Button1">Discord</div></a>
+                    <a href="https://github.com/Z4Dev"><div class="Z4-Button1">GitHub</div></a>
+                </div>
+        </section>
+        <script>
+            function typeWritter(texto,idElemento,tempo){
+                var char = texto.split('').reverse();
+                var typer = setInterval(function () {
+                    if (!char.length) return clearInterval(typer);
+                    var next = char.pop();
+                    document.getElementById(idElemento).innerHTML += next;
+                }, tempo);
+            }
+            typeWritter('Z4 Developer','Z4-Name',500)
+        </script>
+    </body>
+</html>
